@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tzist/meanStackPrac/issues"
   },
-  "homepage": "https://github.com/tzist/meanStackPrac#readme"
+  "homepage": "https://github.com/tzist/meanStackPrac#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
 }
