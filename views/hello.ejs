@@ -1,0 +1,26 @@
+<!-- views/hello.ejs -->
+
+<!-- Embedded Javascript의 약자로 Express에서 dynamic website를
+만들기 위해 template으로 사용되는 파일(확장자 이름은 .ejs)입니다. -->
+
+<!-- EJS는 html에 js 코드가 더해진 형태를 하고 있습니다. 다만 모든 js 코드들은 % %에 들어가야 합니다.
+변수를 출력할때는 %= 변수이름 %을 사용합니다. 위 예제에는 name이 있으면 name을 출력하고, name이 없으면 Stranger를 출력하고 있습니다. -->
+
+
+﻿<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Hello World!</title>
+  <link rel="stylesheet" href="/css/master.css">
+ </head>
+ <body>
+  <h1>Hello
+   <% if(name){ %>
+    <span class="name"><%= name %>!</span>
+   <% } else { %>
+    <span class="stranger">Stranger!</span>
+   <% } %>
+  </h1>
+ </body>
+</html>
