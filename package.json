@@ -1,0 +1,19 @@
+{
+  "name": "meanstack",
+  "version": "1.0.0",
+  "description": "meanstack practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tzist/meanStackPrac.git"
+  },
+  "author": "tzist",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tzist/meanStackPrac/issues"
+  },
+  "homepage": "https://github.com/tzist/meanStackPrac#readme"
+}
